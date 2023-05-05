@@ -1,6 +1,9 @@
-  1. 기본 명령어  
-  1.1 Setup
+  1. 기본 명령어
+    
+  3.1 Setup
+  
   git init : 저장소(repository) 생성
+  
   git clone [원격 저장소 url] : 해당 주소의 내용을 복제하여 저장소 생성
   git config user.name [작성자 이름] : 작성자 이름 설정
   git config user.email [이메일 계정] : 작성자 이메일 설정
