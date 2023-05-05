@@ -18,10 +18,15 @@
 
   1.2 Stage & commit
 git add [파일이름] : 수정된 파일을 staging area 올리기
+
 git add [디렉토리 명] : 해당 디렉토리 내에 수정된 모든 파일들을 staging area에 올리기
+
 git add . : working directory 내에 수정된 모든 파일들을 staging area에 올리기 (untracked 파일 제외)
+
 git commit : 이력 저장(commit)
+
 git commit -m "[메시지]" : vim을 사용하지 않고 인라인으로 메시지를 추가하여 commit
+
 git commit -am "[메시지]" : add와 commit을 일괄적으로 진행
 
   1.3 Inspect
