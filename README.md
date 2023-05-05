@@ -1,12 +1,12 @@
-1. 기본 명령어
+  1. 기본 명령어  
   1.1 Setup
-git init : 저장소(repository) 생성
-git clone [원격 저장소 url] : 해당 주소의 내용을 복제하여 저장소 생성
-git config user.name [작성자 이름] : 작성자 이름 설정
-git config user.email [이메일 계정] : 작성자 이메일 설정
-git config --list : 저장소 설정 전체 출력
-git config --get [설정항목] : 일부 설정항목만 출력(ex : git config --get user.name)
-git help [커맨드 이름] : 도움말
+  git init : 저장소(repository) 생성
+  git clone [원격 저장소 url] : 해당 주소의 내용을 복제하여 저장소 생성
+  git config user.name [작성자 이름] : 작성자 이름 설정
+  git config user.email [이메일 계정] : 작성자 이메일 설정
+  git config --list : 저장소 설정 전체 출력
+  git config --get [설정항목] : 일부 설정항목만 출력(ex : git config --get user.name)
+  git help [커맨드 이름] : 도움말
 
   1.2 Stage & commit
 git add [파일이름] : 수정된 파일을 staging area 올리기
